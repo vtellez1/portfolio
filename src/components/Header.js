@@ -2,11 +2,14 @@ import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import styled from 'styled-components';
 
+const TitleDiv = styled.div`
+margin: 4rem 0rem;
+`
 
 const SocialsDiv = styled.div`
 display: flex;
 justify-content: center;
-margin: 4rem 0rem;
+margin: 3rem 0rem;
 `
 const SocialIcon = styled.div`
 width: 15%
@@ -16,9 +19,11 @@ function Header() {
   return (
     <div className="header" name='header'>
       <Jumbotron>
+        <TitleDiv>
       <h1 className="display-3">Vanessa Tellez</h1>
         <p className="lead">Full-Stack Web Developer</p>
         <p><i class="fas fa-map-pin"></i> Charlotte, NC</p>
+        </TitleDiv>
         <hr className="my-2" />
         <SocialsDiv>
             <SocialIcon>

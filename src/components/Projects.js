@@ -10,6 +10,11 @@ import {
   margin: 8.5rem 0rem;
   `
 
+  const ButtonDiv = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  `
+
 function Projects() {
   return (
     <BigDiv name='projects'>
@@ -22,8 +27,10 @@ function Projects() {
           <CardSubtitle>Built using: Languages/Framworks used</CardSubtitle>
           <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
         or accomplishments..</CardText>
+        <ButtonDiv>
           <Button>View Project</Button>
           <Button>GitHub Repo <i class="fab fa-github"></i></Button>
+        </ButtonDiv>
         </CardBody>
       </Card>
       <Card>
@@ -33,7 +40,10 @@ function Projects() {
           <CardSubtitle>Built using:Languages/Framworks used</CardSubtitle>
           <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
         or accomplishments..</CardText>
-          <Button>Button</Button>
+        <ButtonDiv>
+          <Button>View Project</Button>
+          <Button>GitHub Repo <i class="fab fa-github"></i></Button>
+        </ButtonDiv>
         </CardBody>
       </Card>
       <Card>
@@ -43,7 +53,10 @@ function Projects() {
           <CardSubtitle>Buit using: Languages/Framworks used</CardSubtitle>
           <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
         or accomplishments..</CardText>
-          <Button>Button</Button>
+        <ButtonDiv>
+          <Button>View Project</Button>
+          <Button>GitHub Repo <i class="fab fa-github"></i></Button>
+        </ButtonDiv>
         </CardBody>
       </Card>
     </CardDeck>

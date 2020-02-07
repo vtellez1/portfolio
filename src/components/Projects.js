@@ -40,7 +40,7 @@ function Projects() {
         <CardBody>
           <CardTitle>My Top Nine</CardTitle>
           <CardSubtitle>Built using: React </CardSubtitle>
-          <CardText>For this project, I was the React I developer. Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</CardText>
+          <CardText>Role: React I developer. Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</CardText>
         <ButtonDiv>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/top-nine-pro'}}>GitHub Repo <i class="fab fa-github"></i></Button>

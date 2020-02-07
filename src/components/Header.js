@@ -2,6 +2,10 @@ import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 import styled from 'styled-components';
 
+const BigDiv = styled.div`
+padding-top: 6.5rem;
+`
+
 const TitleDiv = styled.div`
 margin: 4rem 0rem;
 `
@@ -17,7 +21,7 @@ width: 15%
 
 function Header() {
   return (
-    <div className="header" name='header'>
+    <BigDiv name='header'>
       <Jumbotron>
         <TitleDiv>
       <h1 className="display-3">Vanessa Tellez</h1>
@@ -46,7 +50,7 @@ function Header() {
           <Button color="secondary">Learn More</Button>
         </p>
       </Jumbotron>
-    </div>
+    </BigDiv>
   );
 }
 

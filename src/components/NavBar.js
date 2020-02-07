@@ -11,6 +11,13 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Resume from './Resume';
 
+const BigDiv = styled.div`
+position: fixed;
+top: 0;
+width: 80%;
+background-color: white;
+`
+
 const NavDiv = styled.div`
 display:flex;
 justify-content: space-between;
@@ -30,6 +37,7 @@ width: 45%;
 `
 function NavBar() {
   return (
+      <BigDiv>
     <NavDiv>
         <LeftNav>
             <i class="fas fa-code fa-2x"></i>
@@ -66,6 +74,7 @@ function NavBar() {
         </RightNav>
 
     </NavDiv>
+ </BigDiv>
   );
 }
 

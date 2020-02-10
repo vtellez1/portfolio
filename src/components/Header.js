@@ -26,7 +26,7 @@ function Header() {
         <TitleDiv>
       <h1 className="display-3">Vanessa Tellez</h1>
         <p className="lead">Full-Stack Web Developer</p>
-        <p><i class="fas fa-map-pin"></i> Charlotte, NC</p>
+        <p><span style={{color: "crimson"}}><i class="fas fa-map-pin"></i></span> Charlotte, NC</p>
         </TitleDiv>
         <hr className="my-2" />
         <SocialsDiv>

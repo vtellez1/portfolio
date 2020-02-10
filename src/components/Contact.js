@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BigDiv = styled.div`
-margin: 6rem 0rem;
+margin: 5rem 0rem;
 `
 
 const SocialsDiv = styled.div`
@@ -20,7 +20,7 @@ function Contact() {
       <h1>Contact Me:</h1>
       <SocialsDiv>      
           <SocialIcon>
-                <a href='vanessatellez45@gmail.com'><i class="fas fa-envelope fa-3x"></i></a>
+                <a href='mailto:vanessatellez45@gmail.com'><i class="fas fa-envelope fa-3x"></i></a>
                 <p>Email</p>
             </SocialIcon>
 

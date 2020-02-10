@@ -40,7 +40,7 @@ function NavBar() {
       <BigDiv>
     <NavDiv>
         <LeftNav>
-            <i class="fas fa-code fa-2x"></i>
+        <span style={{color: "lavender"}}><i class="fas fa-code fa-2x"></i></span>
             <h4>Vanessa Tellez</h4>
         </LeftNav>
         <RightNav>

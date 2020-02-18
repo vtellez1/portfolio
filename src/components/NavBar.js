@@ -1,15 +1,9 @@
 import React from 'react';
-import App from '../App';
-import { Switch, Route } from 'react-router-dom';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import styled from 'styled-components';
 
-import Header from './Header';
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Projects from './Projects';
-import Contact from './Contact';
-import Resume from './Resume';
+import { Switch, Route, Link as ReactLink} from 'react-router-dom';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+import styled from 'styled-components';
 
 const BigDiv = styled.div`
 position: fixed;
@@ -22,29 +16,30 @@ const NavDiv = styled.div`
 display:flex;
 justify-content: space-between;
 margin: 2rem 0rem;
+width: 80%;
 `
 const LeftNav = styled.div`
 display:flex;
 justify-content: space-between;
-width: 18%;
+width: 25%;
 `
 
 const RightNav = styled.div`
 display: flex;
 justify-content: space-between;
-width: 45%;
-
+width: 40%;
 `
 function NavBar() {
   return (
       <BigDiv>
+          
     <NavDiv>
         <LeftNav>
         <span style={{color: "lavender"}}><i class="fas fa-code fa-2x"></i></span>
             <h4>Vanessa Tellez</h4>
         </LeftNav>
         <RightNav>
-            <Link to='resume'> Resume </Link>
+            <ReactLink to="/resume"> Resume </ReactLink>
 
             <Link
             activeClass='active'

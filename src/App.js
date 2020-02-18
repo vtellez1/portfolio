@@ -1,23 +1,20 @@
 import React from 'react';
 import './App.css';
+import { Switch, Route, Link} from 'react-router-dom';
 
-import NavBar from './components/NavBar';
-import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Contact from './components/Contact';
+import FullPage from './components/FullPage';
+import Resume from './components/Resume';
 
 
 function App() {
+
+  
   return (
     <div className="App">
-      <NavBar/>
-      <Header/>
-      <AboutMe/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
+    <Switch>
+        <Route exact path='/' component={FullPage}/>
+        <Route path='/resume' component={Resume} />
+    </Switch>
     </div>
   );
 }

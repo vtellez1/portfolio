@@ -1,5 +1,6 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import styled from 'styled-components';
 
 const BigDiv = styled.div`
@@ -47,7 +48,14 @@ function Header() {
         </SocialsDiv>
 
         <p className="lead">
-          <Button color="secondary">Learn More</Button>
+        <Link
+            activeClass='active'
+            to='aboutme' 
+            spy={true}
+            smooth= {true}
+            offset={-70}
+            duration={500}> <Button color="secondary">About Me</Button></Link> 
+          
         </p>
       </Jumbotron>
     </BigDiv>

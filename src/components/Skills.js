@@ -27,7 +27,7 @@ function Skills() {
 
       <SkillsBox>
       <SkillText><span style={{color: "deepskyblue"}}><i class="fab fa-react"></i></span>  React</SkillText>
-      <SkillText><img src='https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png' style={{height:35}}></img> Redux</SkillText>
+      <SkillText><img src='https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png' alt="redux logo" style={{height:35}}></img> Redux</SkillText>
       <SkillText><span style={{color: "limegreen"}}><i class="fab fa-node-js"></i></span> NodeJS </SkillText>
       <SkillText><span style={{color: "dimgray"}}><i class="fas fa-database"></i></span> SQL </SkillText>
     </SkillsBox> 

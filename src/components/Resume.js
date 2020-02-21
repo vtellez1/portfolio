@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 import styled from 'styled-components';
 
@@ -36,13 +37,14 @@ function Resume(props) {
             <h4>Vanessa Tellez</h4>
       </LeftNav>
       <RightNav>
-        <button onClick={()=> props.history.push('/')}>Back to Portfolio</button>
+        <Button onClick={()=> props.history.push('/')}>Back to Portfolio</Button>
       </RightNav>
     </NavDiv>
 
  <div className="resume" name='resume'>
   
       <h1>My Resume</h1>
+      <p> Resume coming soon</p>
     </div>
 
 

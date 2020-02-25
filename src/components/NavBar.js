@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Switch, Route, Link as ReactLink} from 'react-router-dom';
+import { Link as ReactLink} from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import styled from 'styled-components';

@@ -13,9 +13,9 @@ function FullPage() {
     <div className="App">
       <NavBar/>
       <Header/>
+      <Projects/>      
       <AboutMe/>
       <Skills/>
-      <Projects/>
       <Contact/>
     </div>
   );

@@ -27,10 +27,10 @@ function AboutMe(){
       <AboutDiv>
 
         <AboutText>
-        <p>Hi, my name is Vanessa Tellez. I am a full-stack web developer based in Charlotte, NC. My enjoyment of learning, solving puzzles, and staying curious has led me to the world of web development.   </p>
+        <p>Hi, my name is Vanessa Tellez. I am a full-stack web developer based in Charlotte, NC. I am passionate about continuous learning and enjoy problem solving. I am excited to apply my skills to real world problems and applications.     </p>
 
         <p>
-        When I'm not in front of my computer, I enjoy hiking, reading, visiting new coffee shops, and spending time with my family. I don't mean to brag but I'm the cool aunt.
+        When I'm not in front of my computer, I enjoy hiking, reading, visiting new coffee shops, and spending time with my family.
         </p>
         </AboutText>
 

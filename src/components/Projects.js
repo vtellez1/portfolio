@@ -1,17 +1,50 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import todolistapp from '../ProfilePic/todolistapp.jpg';
+import kanshaapp from '../ProfilePic/kansha-app.jpeg';
+import simmerapp from '../ProfilePic/simmer-app.jpeg';
+import chefporfolioapp from '../ProfilePic/chefportfolio-app.jpeg';
 import topnineapp from '../ProfilePic/topnineapp.jpg';
 
-import {
-    Card, Button, CardImg, CardTitle, CardText, CardDeck,
-    CardSubtitle, CardBody
-  } from 'reactstrap';
 
   const BigDiv = styled.div`
   margin: 8.5rem 0rem;
+  
   `
+
+  const ProjectDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 5rem 0rem;
+  height: auto;
+  `
+
+  const Card = styled.div`
+  display: flex;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: black solid 1px;
+  `
+  const CardImg = styled.img`
+  width: 45%;
+  height: 17rem;
+  padding: 1rem;
+  `
+
+  const CardBody = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+
+  `
+  const CardTitle = styled.h4``
+  const CardSubtitle = styled.h6``
+  const CardText = styled.p``
+  const Button = styled.button``
+
+
 
   const ButtonDiv = styled.div`
   display: flex;
@@ -22,19 +55,53 @@ function Projects() {
   return (
     <BigDiv name='projects'>
       <h1>My Projects:</h1>
-      <CardDeck>
+      <ProjectDiv>
+
       <Card>
-        <CardImg top width="100%" src={todolistapp} alt="Card image cap" />
+        <CardImg top width="100%" src={kanshaapp} alt="Card image cap" />
         <CardBody>
-          <CardTitle>To-Do List</CardTitle>
-          <CardSubtitle>Built using: React </CardSubtitle>
-          <CardText>Used class components to manage state for a to-do app. Able to add new to-do item, cross off completed, and clear all completed items.</CardText>
+          <CardTitle>Kansha Rewards</CardTitle>
+          <CardSubtitle>Built using: JavaScript | React | Redux | SASS | NodeJS | Postgres </CardSubtitle>
+          <CardText>Role: Front End and Back End Developer. </CardText>
+          <CardText>A workplace recognition program to appreciate peers through rewards and personalized messages.</CardText>
         <ButtonDiv>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://vanessas-todo-list.netlify.com/'}}>View Project</Button>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/vtellez1/React-Todo'}}>GitHub Repo <i class="fab fa-github"></i></Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/Lambda-School-Labs/kansha-fe'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>
       </Card>
+
+      <Card>
+        <CardImg top width="100%" src={simmerapp} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Simmr</CardTitle>
+          <CardSubtitle>Buit using: JavaScript | React | Redux | Material UI | NodeJS | Express</CardSubtitle>
+          <CardText>Role: Back End Developer</CardText>
+          <CardText>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </CardText>
+          <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
+        or accomplishments..</CardText>
+        <ButtonDiv> 
+        <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/chefPassport/backend'}}>GitHub Repo <i class="fab fa-github"></i></Button>
+        </ButtonDiv>
+        </CardBody>
+      </Card>
+
+      <Card>
+        <CardImg top width="100%" src={chefporfolioapp} alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Chef Portfolio</CardTitle>
+          <CardSubtitle>Buit using: JavaScript | React | Redux | SASS | NodeJS | Express</CardSubtitle>
+          <CardText>Role: Front End Developer</CardText>
+          <CardText>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </CardText>
+          <CardText> Built project on a remote team of 4 front-end developers, 1 backend developer, and 2 UI developers in 4 days.</CardText>
+        <ButtonDiv> 
+        <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/ft-bw-chef-portfolio/front-end'}}>GitHub Repo <i class="fab fa-github"></i></Button>
+        </ButtonDiv>
+        </CardBody>
+      </Card>
+
       <Card>
         <CardImg top width="100%" src={topnineapp} alt="Card image cap" />
         <CardBody>
@@ -47,20 +114,10 @@ function Projects() {
         </ButtonDiv>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="https://images.unsplash.com/photo-1537884944318-390069bb8665?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Project title</CardTitle>
-          <CardSubtitle>Buit using: Languages/Framworks used</CardSubtitle>
-          <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
-        or accomplishments..</CardText>
-        <ButtonDiv>
-          <Button>View Project</Button>
-          <Button>GitHub Repo <i class="fab fa-github"></i></Button>
-        </ButtonDiv>
-        </CardBody>
-      </Card>
-    </CardDeck>
+
+
+
+    </ProjectDiv>
     </BigDiv>
   );
 }

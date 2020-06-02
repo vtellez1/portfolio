@@ -151,10 +151,10 @@ function Resume() {
             <div>
               <SectionTitle>Contact</SectionTitle>
               <Contact>
-              <a href='mailto:vanessatellez45@gmail.com'><i style={{color: "black"}} class="fas fa-envelope fa-1x"> vanessatellez45@gmail.com</i></a>
-              <a href='https://twitter.com/vanessa_tellezz'><i style={{color: "black"}} class="fab fa-twitter-square fa-1x"> https://twitter.com/vanessa_tellezz</i></a>
-              <a href='https://www.linkedin.com/in/tellezvanessa/'><i style={{color: "black"}}  class="fab fa-linkedin fa-1x"> https://www.linkedin.com/in/tellezvanessa</i></a>
-              <a href='https://github.com/vtellez1'><i style={{color: "black"}} class="fab fa-github fa-1x"> https://github.com/vtellez1</i></a>
+              <p><a href='mailto:vanessatellez45@gmail.com'><i style={{color: "black"}} class="fas fa-envelope fa-1x"> vanessatellez45@gmail.com</i></a></p>
+              <p><a href='https://twitter.com/vanessa_tellezz'><i style={{color: "black"}} class="fab fa-twitter-square fa-1x"> @vanessa_tellezz</i></a></p>
+              <p><a href='https://www.linkedin.com/in/tellezvanessa/'><i style={{color: "black"}}  class="fab fa-linkedin fa-1x"> linkedin.com/in/tellezvanessa </i></a></p>
+              <p><a href='https://github.com/vtellez1'><i style={{color: "black"}} class="fab fa-github fa-1x"> vtellez1 </i></a></p>
               </Contact>
             </div>
 

@@ -8,7 +8,7 @@ import styled from 'styled-components';
 const BigDiv = styled.div`
 position: fixed;
 top: 0;
-width: 80%;
+width: 85%;
 background-color: white;
 `
 
@@ -16,7 +16,7 @@ const NavDiv = styled.div`
 display:flex;
 justify-content: space-between;
 margin: 1.3rem 0rem;
-width: 80%;
+width: 85%;
 `
 const LeftNav = styled.div`
 display:flex;

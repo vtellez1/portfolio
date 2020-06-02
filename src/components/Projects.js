@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import kanshaapp from '../ProfilePic/kansha-app.jpeg';
+import kanshaapp from '../ProfilePic/KanshaImg2.jpeg';
 import simmerapp from '../ProfilePic/simmer-app.jpeg';
 import chefporfolioapp from '../ProfilePic/chefportfolio-app.jpeg';
 import topnineapp from '../ProfilePic/topnineapp.jpg';
@@ -26,7 +26,7 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   `
   const CardImg = styled.img`
   width: 45%;
-  height: 17rem;
+  height: 21rem;
   padding: 1rem;
   `
 

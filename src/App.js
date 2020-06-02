@@ -4,6 +4,7 @@ import { Switch, Route, Link} from 'react-router-dom';
 
 import FullPage from './components/FullPage';
 import Resume from './components/Resume';
+import NavBar from './components/NavBar';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   
   return (
     <div className="App">
+      <NavBar/>
     <Switch>
         <Route exact path='/' component={FullPage}/>
         <Route path='/resume' component={Resume} />

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const BigDiv = styled.div`
-margin: 5rem 0rem;
+margin: 4rem 0rem;
 `
 
 const SocialsDiv = styled.div`

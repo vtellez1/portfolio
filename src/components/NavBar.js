@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import { Link as ReactLink} from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
@@ -30,16 +30,17 @@ justify-content: space-between;
 width: 40%;
 `
 function NavBar() {
+
   return (
-      <BigDiv>
+    <BigDiv>
           
     <NavDiv>
         <LeftNav>
         <span style={{color: "#99ccff"}}><i class="fas fa-code fa-2x"></i></span>
-            <h4>Vanessa Tellez</h4>
+            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><h4>Vanessa Tellez</h4></ReactLink>
         </LeftNav>
         <RightNav>
-            <ReactLink style={{color: "black"}} to="/resume"> Resume </ReactLink>
+            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/resume"> Resume </ReactLink>
 
           <Link
             activeClass='active'
@@ -47,7 +48,7 @@ function NavBar() {
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}> Projects </Link>  
+            duration={500}><ReactLink style={{color: "black", textDecoration: 'none'}} to="/"> Projects</ReactLink></Link>  
             
             <Link
             activeClass='active'
@@ -55,7 +56,7 @@ function NavBar() {
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}> Contact Me</Link>
+            duration={500}> <ReactLink style={{color: "black", textDecoration: 'none'}} to="/">Contact Me</ReactLink></Link>
         </RightNav>
 
     </NavDiv>

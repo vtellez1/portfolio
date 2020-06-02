@@ -9,9 +9,7 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
 
   const BigDiv = styled.div`
   margin: 8.5rem 0rem;
-  
   `
-
   const ProjectDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -58,9 +56,9 @@ function Projects() {
       <ProjectDiv>
 
       <Card>
-        <CardImg top width="100%" src={kanshaapp} alt="Card image cap" />
+        <CardImg top width="100%" src={kanshaapp} alt="Kansha app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}/>
         <CardBody>
-          <CardTitle>Kansha Rewards</CardTitle>
+          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}>Kansha Rewards</CardTitle>
           <CardSubtitle>Built using: JavaScript | React | Redux | SASS | NodeJS | Postgres </CardSubtitle>
           <CardText>Role: Front End and Back End Developer. </CardText>
           <CardText>A workplace recognition program to appreciate peers through rewards and personalized messages.</CardText>
@@ -72,9 +70,9 @@ function Projects() {
       </Card>
 
       <Card>
-        <CardImg top width="100%" src={simmerapp} alt="Card image cap" />
+        <CardImg top width="100%" src={simmerapp} alt="Simmer app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}} />
         <CardBody>
-          <CardTitle>Simmr</CardTitle>
+          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>Simmr</CardTitle>
           <CardSubtitle>Buit using: JavaScript | React | Redux | Material UI | NodeJS | Express</CardSubtitle>
           <CardText>Role: Back End Developer</CardText>
           <CardText>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </CardText>
@@ -88,9 +86,9 @@ function Projects() {
       </Card>
 
       <Card>
-        <CardImg top width="100%" src={chefporfolioapp} alt="Card image cap" />
+        <CardImg top width="100%" src={chefporfolioapp} alt="Chef Portfolio app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}/>
         <CardBody>
-          <CardTitle>Chef Portfolio</CardTitle>
+          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>Chef Portfolio</CardTitle>
           <CardSubtitle>Buit using: JavaScript | React | Redux | SASS | NodeJS | Express</CardSubtitle>
           <CardText>Role: Front End Developer</CardText>
           <CardText>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </CardText>
@@ -103,11 +101,12 @@ function Projects() {
       </Card>
 
       <Card>
-        <CardImg top width="100%" src={topnineapp} alt="Card image cap" />
+        <CardImg top width="100%" src={topnineapp} alt="top nine app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}} />
         <CardBody>
-          <CardTitle>My Top Nine</CardTitle>
+          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>My Top Nine</CardTitle>
           <CardSubtitle>Built using: React </CardSubtitle>
-          <CardText>Role: React I developer. Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</CardText>
+          <CardText>Role: React I developer. </CardText>
+          <CardText>Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</CardText>
         <ButtonDiv>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/top-nine-pro'}}>GitHub Repo <i class="fab fa-github"></i></Button>

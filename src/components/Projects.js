@@ -62,6 +62,8 @@ function Projects() {
           <CardSubtitle>Built using: JavaScript | React | Redux | SASS | NodeJS | Postgres </CardSubtitle>
           <CardText>Role: Front End and Back End Developer. </CardText>
           <CardText>A workplace recognition program to appreciate peers through rewards and personalized messages.</CardText>
+
+
         <ButtonDiv>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/Lambda-School-Labs/kansha-fe'}}>GitHub Repo <i class="fab fa-github"></i></Button>
@@ -76,8 +78,7 @@ function Projects() {
           <CardSubtitle>Buit using: JavaScript | React | Redux | Material UI | NodeJS | Express</CardSubtitle>
           <CardText>Role: Back End Developer</CardText>
           <CardText>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </CardText>
-          <CardText>Description of project and my role. 2-3 bullets highlighting responsibilities, how technology was used,
-        or accomplishments..</CardText>
+ 
         <ButtonDiv> 
         <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/chefPassport/backend'}}>GitHub Repo <i class="fab fa-github"></i></Button>

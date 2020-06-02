@@ -9,10 +9,12 @@ const SkillsBox = styled.div`
 display: flex;
 justify-content: space-evenly;
 margin: 5rem 0rem;
+
 `
 
 const SkillText = styled.p`
 font-size: 3rem;
+
 `
 
 function Skills() {

@@ -69,7 +69,7 @@ function AboutMe(){
             </SocialIcon>
 
             <SocialIcon>
-                <a href='https://www.linkedin.com/in/vanessa-tellez-b8389394/'><i style={{color: "#0077B5"}} class="fab fa-linkedin fa-3x"></i></a>
+                <a href='https://www.linkedin.com/in/tellezvanessa/'><i style={{color: "#0077B5"}} class="fab fa-linkedin fa-3x"></i></a>
                 <p>LinkedIn</p>
             </SocialIcon>
         

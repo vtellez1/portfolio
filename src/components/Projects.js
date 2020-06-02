@@ -42,8 +42,6 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   const CardText = styled.p``
   const Button = styled.button``
 
-
-
   const ButtonDiv = styled.div`
   display: flex;
   justify-content: space-evenly;

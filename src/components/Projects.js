@@ -16,7 +16,7 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 5rem 0rem;
+  margin: 1rem 0rem;
   height: auto;
   `
 

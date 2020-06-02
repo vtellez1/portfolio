@@ -15,7 +15,7 @@ background-color: white;
 const NavDiv = styled.div`
 display:flex;
 justify-content: space-between;
-margin: 2rem 0rem;
+margin: 1.3rem 0rem;
 width: 80%;
 `
 const LeftNav = styled.div`
@@ -35,30 +35,20 @@ function NavBar() {
           
     <NavDiv>
         <LeftNav>
-        <span style={{color: "lavender"}}><i class="fas fa-code fa-2x"></i></span>
+        <span style={{color: "#99ccff"}}><i class="fas fa-code fa-2x"></i></span>
             <h4>Vanessa Tellez</h4>
         </LeftNav>
         <RightNav>
-            <ReactLink to="/resume"> Resume </ReactLink>
+            <ReactLink style={{color: "black"}} to="/resume"> Resume </ReactLink>
 
-            <Link
-            activeClass='active'
-            to='aboutme' 
-            spy={true}
-            smooth= {true}
-            offset={-70}
-            duration={500}> About Me</Link>   
-            
-            <Link
+          <Link
             activeClass='active'
             to='projects' 
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}> Projects </Link>
-
-
-
+            duration={500}> Projects </Link>  
+            
             <Link
             activeClass='active'
             to='contact' 

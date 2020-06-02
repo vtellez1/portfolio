@@ -1,7 +1,6 @@
 import React from 'react';
 
 import NavBar from './NavBar';
-import Header from './Header';
 import AboutMe from './AboutMe';
 import Skills from './Skills';
 import Projects from './Projects';
@@ -12,10 +11,9 @@ function FullPage() {
   return (
     <div className="App">
       <NavBar/>
-      <Header/>
-      <Projects/>      
       <AboutMe/>
-      <Skills/>
+      <Projects/>
+      <Skills/>     
       <Contact/>
     </div>
   );

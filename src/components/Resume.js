@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from 'reactstrap';
-
 import styled from 'styled-components';
 
 const BigDiv = styled.div`
@@ -26,6 +24,18 @@ display: flex;
 justify-content: flex-end;
 width: 40%;`
 
+const Button = styled.button`
+background-color: black;
+color: white;
+padding: .6rem 1.2rem;
+font-size: 1.1rem;
+border-radius: .4rem;
+&:hover{
+background-color:white; 
+color: black;
+}
+`
+
 
 function Resume(props) {
   return (
@@ -33,7 +43,7 @@ function Resume(props) {
           
     <NavDiv>
       <LeftNav>
-        <span style={{color: "lavender"}}><i class="fas fa-code fa-2x"></i></span>
+        <span style={{color: "#99ccff"}}><i class="fas fa-code fa-2x"></i></span>
             <h4>Vanessa Tellez</h4>
       </LeftNav>
       <RightNav>

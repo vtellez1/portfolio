@@ -81,11 +81,11 @@ function Resume() {
               </TitleDates>
               <ProjectBody>
               <p>A workplace recognition program to appreciate peers through rewards and personalized messages.</p>
-              <p>JavaScript | React | Redux | SASS | NodeJS | Postgres</p>
+              <p>Tech stack: JavaScript | React | Redux | SASS | NodeJS | Postgres</p>
               <p><a href='https://github.com/Lambda-School-Labs/kansha-fe'>Front-end Repo | </a> <a href='https://github.com/Lambda-School-Labs/kansha-be'>Backend Repo</a> </p>
               </ProjectBody>
               <ul>
-                <li>Enhanced build-on project on a remote cross functional team of 8 developers over 8 weeks.</li>
+                <li>Enhanced build-on project on a remote cross functional team of 8 developers and a UX Designer over 8 weeks.</li>
                 <li>Developed application with front end and back end skills to reach product vision goals.</li>
                 <li>Implemented bulk-user upload capabilities with CSV files and reports on user recognition count. </li>
               </ul>
@@ -98,8 +98,8 @@ function Resume() {
                 </TitleDates>
 
                 <ProjectBody>
-                <p>A professional platform for chefs to display their best recipes for public view with photos and ingredient lists.</p>
-                <p>JavaScript | React | Redux | Material UI | NodeJS | Express</p>
+                <p>Professional platform for chefs to display recipes for public view with photos and ingredient lists.</p>
+                <p>Tech Stack: JavaScript | React | Redux | Material UI | NodeJS | Express</p>
                 <p><a href='https://github.com/chefPassport/backend'>Backend Repo</a></p>
                 </ProjectBody>
 
@@ -117,8 +117,8 @@ function Resume() {
                 </TitleDates>
                 
                 <ProjectBody>
-                <p>A professional platform for chefs to display their best recipes for public view with photos and ingredient lists.</p>
-                <p>JavaScript | React | Redux | SASS | NodeJS | Express</p>
+                <p>Professional platform for chefs to display recipes for public view with photos and ingredient lists.</p>
+                <p>Tech Stack: JavaScript | React | Redux | SASS | NodeJS | Express</p>
                 <p><a href='https://github.com/ft-bw-chef-portfolio/front-end'>Front-end Repo</a></p>
                 </ProjectBody>
 

@@ -39,7 +39,7 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   `
   const CardTitle = styled.h4``
   const CardText = styled.div`
-  height: 9.7rem;
+  height: 10.7rem;
   overflow: scroll;
   margin-bottom: 1rem;
   padding-right: 1.3rem;
@@ -110,7 +110,6 @@ function Projects() {
             <h6>Buit using: JavaScript | React | Redux | SASS | NodeJS | Express</h6>
             <p>Role: Front End Developer</p>
             <p>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </p>
-            <p> Built project on a remote team of 4 front-end developers, 1 backend developer, and 2 UI developers in 4 days.</p>
             <ul>
               <li>Built project on a remote team of 4 front-end developers, 1 backend developer, and 2 UI developers in 4 days.</li>
               <li>Developed state management for application and handled HTTP requests for all CRUD operations.</li>
@@ -129,9 +128,15 @@ function Projects() {
         <CardBody>
           <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>My Top Nine</CardTitle>
           <CardText>
-          <h6>Built using: React </h6>
+          <h6>Built using: JavaScript | React | Styled Components | NodeJS | Express </h6>
           <p>Role: React I developer. </p>
           <p>Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</p>
+          <ul>
+            <li>Built project on a remote team of 3 front-end developers, 1 backend developer, and 1 UI developers in 4 days.</li>
+            <li>Constructed user sign up and login forms utilizing formik in order to provide great user experience</li>
+            <li>Styled application using styled components to meet plan design specifications.</li>
+          </ul>
+          
           </CardText>
 
         <ButtonDiv>

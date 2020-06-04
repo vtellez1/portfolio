@@ -44,7 +44,17 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   margin-bottom: 1rem;
   padding-right: 1.3rem;
   `
-  const Button = styled.button``
+  const Button = styled.button`
+  background-color: #282828;
+  color: white;
+  font-size: 1rem;
+  padding: .2rem;
+  border-radius: .4rem;
+  &:hover{
+  background-color:white; 
+  color: black;
+  }
+  `
 
   const ButtonDiv = styled.div`
   display: flex;
@@ -96,7 +106,7 @@ function Projects() {
         </CardText>
 
         <ButtonDiv> 
-        <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/chefPassport/backend'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>
@@ -117,7 +127,7 @@ function Projects() {
             </ul>
         </CardText>
         <ButtonDiv> 
-        <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/ft-bw-chef-portfolio/front-end'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>

@@ -66,7 +66,7 @@ function Projects() {
             <p>Role: Front End and Back End Developer. </p>
             <p>A workplace recognition program to appreciate peers through rewards and personalized messages.</p>
             <ul>
-              <li>Enhanced build-on project on a remote cross-functional team of 8 developers and a UX Designer over 8 weeks.</li>
+              <li>Enhanced build-on project on a remote cross-functional team of 8 developers and a UX Designer in 8 weeks.</li>
               <li>Developed application with front end and back end skills to reach product vision goals.</li>
               <li>Implemented bulk-user upload capabilities with CSV files and reports on user recognition count.</li>
             </ul>

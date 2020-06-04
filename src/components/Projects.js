@@ -42,7 +42,7 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   height: 9.7rem;
   overflow: scroll;
   margin-bottom: 1rem;
-  padding-right: 1rem;
+  padding-right: 1.3rem;
   `
   const Button = styled.button``
 

@@ -10,10 +10,19 @@ display: flex;
 justify-content: space-evenly;
 margin: 5rem 0rem;
 
+@media(max-width:800px){
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem;
+}
+
 `
 
 const SkillText = styled.p`
 font-size: 3rem;
+@media(max-width:800px){
+  font-size: 2.4rem;
+}
 
 `
 

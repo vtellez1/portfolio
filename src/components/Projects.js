@@ -24,11 +24,18 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
   margin: 1rem;
   border: black solid 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @media(max-width:800px){
+    flex-direction: column;
+    align-items: center;
+  }
   `
   const CardImg = styled.img`
   width: 45%;
   height: 21rem;
   padding: 1rem;
+  @media(max-width:800px){
+    width: 90%;
+  }
   `
 
   const CardBody = styled.div`

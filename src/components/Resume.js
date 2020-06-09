@@ -52,7 +52,10 @@ justify-content: space-between;
 `
 
 const ProjectBody = styled.div`
-line-height: .5rem;
+line-height: .9rem;
+@media(max-width:800px){
+  line-height: 1.2rem;
+}
 `
 
 

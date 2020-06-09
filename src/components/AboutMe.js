@@ -15,15 +15,23 @@ margin: 4rem 0rem;
 
 @media(max-width:800px){
   flex-direction: column;
+  align-items: center;
 }
 
 `
 const AboutText = styled.div`
 width: 55%;
+@media(max-width:800px){
+  width: 90%;
+}
 `
 
 const ProfilePic = styled.img`
 height: 16rem;
+@media(max-width:800px){
+  height: 10rem;
+  padding-top: 1rem;
+}
 `
 const SocialsDiv = styled.div`
 display: flex;

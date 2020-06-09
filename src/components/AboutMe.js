@@ -18,11 +18,23 @@ margin: 4rem 0rem;
   align-items: center;
 }
 
+@media(max-width:500px){
+  margin: 2rem 0rem;
+}
 `
+
+
 const AboutText = styled.div`
 width: 55%;
 @media(max-width:800px){
-  width: 90%;
+  width: 95%;
+  font-size: .8rem;
+}
+`
+
+const Title = styled.h2`
+@media(max-width:500px){
+  font-size: 1.3rem;
 }
 `
 
@@ -32,11 +44,22 @@ height: 16rem;
   height: 10rem;
   padding-top: 1rem;
 }
+
+@media(max-width:500px){
+  height: 8rem;
+}
 `
 const SocialsDiv = styled.div`
 display: flex;
 justify-content: center;
 margin: 3rem 0rem;
+
+@media(max-width:500px){
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
 `
 const SocialIcon = styled.div`
 width: 15%
@@ -51,6 +74,12 @@ border-radius: .4rem;
 background-color:white; 
 color: black;
 }
+
+@media(max-width:500px){
+  font-size: .9rem;
+  padding: .4rem 1rem;
+
+}
 `
 
 
@@ -61,7 +90,7 @@ function AboutMe(){
 
       <AboutDiv>
         <AboutText>
-        <p>Hi, my name is <h2>Vanessa Tellez.</h2> I am a full-stack web developer based in <p><span style={{color: "crimson"}}><i class="fas fa-map-pin"></i></span> Charlotte, NC</p> I am passionate about continuous learning and enjoy problem solving. I am excited to apply my skills to real world problems and applications.     </p>
+        <p>Hi, my name is <Title>Vanessa Tellez.</Title> I am a full-stack web developer based in <p><span style={{color: "crimson"}}><i class="fas fa-map-pin"></i></span> Charlotte, NC</p> I am passionate about continuous learning and enjoy problem solving. I am excited to apply my skills to real world problems and applications.     </p>
 
         <p>
         When I'm not in front of my computer, I enjoy hiking, reading, visiting new coffee shops, and spending time with my family.

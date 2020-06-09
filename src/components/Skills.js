@@ -15,7 +15,12 @@ margin: 5rem 0rem;
   align-items: center;
   margin: 0rem;
 }
+`
 
+const Title = styled.h1`
+@media(max-width:500px){
+  font-size: 2rem;
+}
 `
 
 const SkillText = styled.p`
@@ -24,12 +29,17 @@ font-size: 3rem;
   font-size: 2.4rem;
 }
 
+@media(max-width:800px){
+  font-size: 1.8rem;
+}
+
+
 `
 
 function Skills() {
   return (
     <BigDiv name='skills'> 
-      <h1>My Skills:</h1>
+      <Title>My Skills:</Title>
     <SkillsBox>
       <SkillText><span style={{color: "orange"}}><i class="fab fa-html5"></i></span> HTML</SkillText>
       <SkillText><span style={{color: "dodgerblue"}}><i class="fab fa-css3"></i></span> CSS</SkillText>

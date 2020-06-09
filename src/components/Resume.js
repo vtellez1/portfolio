@@ -15,15 +15,39 @@ const Header = styled.div`
 padding: 1rem;
 color:navy;
 background-color: #F5F5F5;
+
 `
 const Main = styled.div`
 display: flex;
 justify-content: center;
+
+@media(max-width:500px){
+  flex-direction: column;
+  align-items: center;
+  margin: 0rem;
+}
 `
+
+const Title = styled.h1`
+@media(max-width:500px){
+  font-size: 1.8rem;
+}
+`
+
+const SubTitle = styled.h3`
+@media(max-width:500px){
+  font-size: 1.4rem;
+}
+`
+
 const Left = styled.div`
 width: 70%;
 text-align: left;
 padding:1rem;
+
+@media(max-width:500px){
+  width: 95%;
+}
 `
 
 const Projects = styled.div`
@@ -36,12 +60,20 @@ const Right = styled.div`
 width: 28%;
 text-align: left;
 padding: 1rem;
+
+@media(max-width:500px){
+  width: 95%;
+}
 `
 
 const SectionTitle = styled.h4`
 color: navy;
 font-weight: bold;
 border-bottom: solid black 1px;
+
+@media(max-width:500px){
+  font-size: 1.3rem;
+}
 `
 const Contact = styled.div`
 padding: 1rem 0rem;
@@ -49,6 +81,7 @@ padding: 1rem 0rem;
 const TitleDates = styled.div`
 display: flex;
 justify-content: space-between;
+
 `
 
 const ProjectBody = styled.div`
@@ -56,6 +89,7 @@ line-height: .9rem;
 @media(max-width:800px){
   line-height: 1.2rem;
 }
+
 `
 
 
@@ -67,8 +101,8 @@ function Resume() {
 
       <ResumeWhole>
         <Header>
-          <h1>Vanessa Tellez</h1>
-          <h3>Full Stack Developer</h3>
+          <Title>Vanessa Tellez</Title>
+          <SubTitle>Full Stack Developer</SubTitle>
           <p><span style={{color: "black"}}><i class="fas fa-map-pin"></i></span> Charlotte, NC</p>
         </Header>
 

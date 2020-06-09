@@ -3,12 +3,27 @@ import styled from 'styled-components';
 
 const BigDiv = styled.div`
 margin: 4rem 0rem;
-`
 
+@media(max-width:500px){
+  margin-bottom: 9rem;
+}
+
+`
+const Title = styled.h1`
+@media(max-width:500px){
+  font-size: 2rem;
+}
+`
 const SocialsDiv = styled.div`
 display: flex;
 justify-content: center;
 margin: 3rem 0rem;
+
+@media(max-width:500px){
+  margin: 1.5rem 0rem;
+  flex-direction: column;
+  align-items: center;
+}
 `
 const SocialIcon = styled.div`
 width: 15%
@@ -17,7 +32,7 @@ width: 15%
 function Contact() {
   return (
     <BigDiv name='contact'>
-      <h1>Contact Me:</h1>
+      <Title>Contact Me:</Title>
       <SocialsDiv>      
           <SocialIcon>
                 <a href='mailto:vanessatellez45@gmail.com'><i style={{color: "#99ccff"}} class="fas fa-envelope fa-3x"></i></a>

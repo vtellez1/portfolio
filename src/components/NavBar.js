@@ -17,17 +17,48 @@ display:flex;
 justify-content: space-between;
 margin: 1.3rem 0rem;
 width: 85%;
+
+@media(max-width:500px){
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+`
+
+const Title = styled.h4`
+@media(max-width:500px){
+  font-size: 1.2rem;
+  padding-left: .7rem;
+}
+`
+
+const Icon = styled.span`
+color: #99ccff;
+
+@media(max-width:500px){
+  font-size: .8rem;
+}
 `
 const LeftNav = styled.div`
 display:flex;
 justify-content: space-between;
 width: 25%;
+
+@media(max-width:500px){
+  justify-content: center;
+  width: 95%;
+}
 `
 
 const RightNav = styled.div`
 display: flex;
 justify-content: space-between;
 width: 40%;
+
+@media(max-width:500px){
+  flex-direction: column;
+  width: 95%;
+}
 `
 function NavBar() {
 
@@ -36,8 +67,8 @@ function NavBar() {
           
     <NavDiv>
         <LeftNav>
-        <span style={{color: "#99ccff"}}><i class="fas fa-code fa-2x"></i></span>
-            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><h4>Vanessa Tellez</h4></ReactLink>
+        <Icon><i class="fas fa-code fa-2x"></i></Icon>
+            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><Title>Vanessa Tellez</Title></ReactLink>
         </LeftNav>
         <RightNav>
             <ReactLink style={{color: "black", textDecoration: 'none'}} to="/resume"> Resume </ReactLink>

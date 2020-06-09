@@ -5,7 +5,7 @@ const BigDiv = styled.div`
 margin: 4rem 0rem;
 
 @media(max-width:500px){
-  margin-bottom: 9rem;
+  margin-bottom: 5rem;
 }
 
 `

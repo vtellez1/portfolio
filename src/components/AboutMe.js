@@ -13,6 +13,10 @@ display: flex;
 justify-content: space-evenly;
 margin: 4rem 0rem;
 
+@media(max-width:800px){
+  flex-direction: column;
+}
+
 `
 const AboutText = styled.div`
 width: 55%;

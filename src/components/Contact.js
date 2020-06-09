@@ -7,7 +7,6 @@ margin: 4rem 0rem;
 @media(max-width:500px){
   margin-bottom: 5rem;
 }
-
 `
 const Title = styled.h1`
 @media(max-width:500px){

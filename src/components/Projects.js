@@ -35,8 +35,6 @@ import topnineapp from '../ProfilePic/topnineapp.jpg';
     margin: .5rem;
     width:100%;
   }
-
- 
   `
   const CardImg = styled.img`
   width: 45%;
@@ -85,8 +83,6 @@ const Title = styled.h1`
     font-size: .8rem;
     text-align: left;
   }
- 
-
   `
   const Button = styled.button`
   background-color: #282828;

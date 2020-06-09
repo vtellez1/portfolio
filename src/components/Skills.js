@@ -32,8 +32,6 @@ font-size: 3rem;
 @media(max-width:800px){
   font-size: 1.8rem;
 }
-
-
 `
 
 function Skills() {

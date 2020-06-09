@@ -23,7 +23,6 @@ margin: 4rem 0rem;
 }
 `
 
-
 const AboutText = styled.div`
 width: 55%;
 @media(max-width:800px){
@@ -59,7 +58,6 @@ margin: 3rem 0rem;
   align-items: center;
   margin: 1rem;
 }
-
 `
 const SocialIcon = styled.div`
 width: 15%

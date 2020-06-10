@@ -83,6 +83,14 @@ function NavBar() {
             
             <Link
             activeClass='active'
+            to='skills' 
+            spy={true}
+            smooth= {true}
+            offset={-70}
+            duration={500}> <ReactLink style={{color: "black", textDecoration: 'none'}} to="/">Skills</ReactLink></Link>
+
+            <Link
+            activeClass='active'
             to='contact' 
             spy={true}
             smooth= {true}

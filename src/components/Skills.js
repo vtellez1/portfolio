@@ -25,6 +25,13 @@ const Title = styled.h1`
 
 const SkillText = styled.p`
 font-size: 3rem;
+
+&:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.2);
+}
+}
 @media(max-width:800px){
   font-size: 2.4rem;
 }

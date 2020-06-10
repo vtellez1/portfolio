@@ -68,7 +68,13 @@ function NavBar() {
     <NavDiv>
         <LeftNav>
         <Icon><i class="fas fa-code fa-2x"></i></Icon>
-            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><Title>Vanessa Tellez</Title></ReactLink>
+        <Link
+            activeClass='active'
+            to='aboutme' 
+            spy={true}
+            smooth= {true}
+            offset={-70}
+            duration={500}><ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><Title>Vanessa Tellez</Title></ReactLink></Link> 
         </LeftNav>
         <RightNav>
             <ReactLink style={{color: "black", textDecoration: 'none'}} to="/resume"> Resume </ReactLink>

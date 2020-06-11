@@ -232,7 +232,7 @@ function Resume() {
               <p>SQLite, PostgresSQL </p>
 
               <h6>VERSION CONTROL</h6>
-              <p>Git, Github, Heroku, Netlify,VS Code, MacOS,Terminal </p>
+              <p>Git, Github, Heroku, Netlify, VS Code, MacOS, Terminal </p>
 
               <h6>COMMUNICATION SOFTWARE</h6>
               <p>Slack, Zoom, Discord </p>

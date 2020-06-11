@@ -149,7 +149,7 @@ function Resume() {
 
               <div>
                 <TitleDates>
-                 <h5><a href='https://deploy-inky.now.sh/home'>Chef Portfolio</a>​</h5>
+                 <h5><a href='https://objective-kalam-f1d625.netlify.app/'>Chef Portfolio</a>​</h5>
                  <h6>Jan. 2020​</h6> 
                 </TitleDates>
                 

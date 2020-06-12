@@ -212,10 +212,10 @@ function Resume() {
 
             <div>
               <SectionTitle>Skills</SectionTitle>
-              <h6>CODING LANGUAGES:</h6>
+              <h6>CODING LANGUAGES: </h6>
               <p>HTML, CSS, JavaScript</p>
 
-              <h6>LIBRARIES AND FRAMEWORKS</h6>
+              <h6>LIBRARIES AND FRAMEWORKS: </h6>
               <p>
                 ReactJS,
                 Redux,
@@ -228,13 +228,13 @@ function Resume() {
                 Yarn,
               </p>
 
-              <h6>DATABASES</h6>
+              <h6>DATABASES:</h6>
               <p>SQLite, PostgresSQL </p>
 
-              <h6>VERSION CONTROL</h6>
+              <h6>VERSION CONTROL: </h6>
               <p>Git, Github, Heroku, Netlify, VS Code, MacOS, Terminal </p>
 
-              <h6>COMMUNICATION SOFTWARE</h6>
+              <h6>COMMUNICATION SOFTWARE: </h6>
               <p>Slack, Zoom, Discord </p>
               
 

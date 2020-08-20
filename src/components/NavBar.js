@@ -40,19 +40,19 @@ function NavBar() {
 
             <Link
             activeClass='active'
-            to='contact' 
-            spy={true}
-            smooth= {true}
-            offset={-70}
-            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-envelope"> Contact Me</i></Link>
-
-            <Link
-            activeClass='active'
             to='resume' 
             spy={true}
             smooth= {true}
             offset={-70}
             duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-file"> Resume</i>  </Link> 
+
+            <Link
+            activeClass='active'
+            to='contact' 
+            spy={true}
+            smooth= {true}
+            offset={-70}
+            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-envelope"> Contact Me</i></Link>
 
         </RightNav>
 

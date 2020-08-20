@@ -3,6 +3,10 @@ import styled from 'styled-components';
   export const BigDiv = styled.div`
   margin: 8.5rem 0rem;
   padding-top: 2rem;
+
+  @media(max-width:500px){
+    margin: 0rem;
+  }
   `
   export const ProjectDiv = styled.div`
   display: flex;
@@ -10,6 +14,10 @@ import styled from 'styled-components';
   justify-content: space-evenly;
   margin: 1rem 0rem;
   height: auto;
+
+  @media(max-width:500px){
+    margin: 0rem;
+  }
   `
 
   export const Card = styled.div`
@@ -30,15 +38,14 @@ import styled from 'styled-components';
   }
   `
   export const CardImg = styled.img`
-  width: 45%;
-  height: 21rem;
+  width: 40%;
+  height: 17rem;
   padding: 1rem;
   @media(max-width:800px){
-    width: 90%;
+    width: 50%;
   }
   @media(max-width:500px){
-    width: 80%;
-    height: 13rem;
+    height: 12rem;
   }
   `
 

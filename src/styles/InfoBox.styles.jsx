@@ -5,6 +5,11 @@ margin: 7rem 0rem;
 padding: 2rem 0rem;
 border-bottom: 1px solid #484848;
 color: #484848;
+
+@media(max-width:800px){
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+  }
 `
 
 export const ProfilePic = styled.img`

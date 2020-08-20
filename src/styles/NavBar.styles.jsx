@@ -38,6 +38,11 @@ justify-content: space-between;
 align-items: center;
 width: 45%;
 
+@media(max-width:800px){
+
+  width: 75%;
+}
+
 @media(max-width:500px){
   flex-direction: column;
   width: 95%;

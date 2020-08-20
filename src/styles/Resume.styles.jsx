@@ -4,6 +4,11 @@ export const BigDiv = styled.div`
 margin: 7rem 0rem;
 padding: 2rem 0rem;
 border-top: 1px solid #484848;
+
+@media(max-width:800px){
+  margin: 2rem 0rem;
+  padding: 1rem 0rem;
+}
 `
 
 export const Button = styled.button`
@@ -17,13 +22,11 @@ border-radius: .4rem;
 &:hover{
 background-color:white; 
 color: black;
-
 }
 
 @media(max-width:500px){
   font-size: .9rem;
   padding: .4rem 1rem;
-
 }
 `
 

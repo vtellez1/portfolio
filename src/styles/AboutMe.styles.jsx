@@ -24,15 +24,18 @@ margin: 1.5rem 0rem;
 export const AboutText = styled.div`
 width: 95%;
 text-align: left;
+
 @media(max-width:800px){
   width: 95%;
   font-size: .8rem;
+  text-align: center;
 }
 `
 
 export const AboutTop = styled.span`
 width: 95%;
 text-align: center;
+
 @media(max-width:800px){
   width: 95%;
   font-size: .8rem;
@@ -49,9 +52,11 @@ export const CardImg = styled.img`
 width: 100%;
 height: 21rem;
 padding: 1rem 0rem;
+
 @media(max-width:800px){
   width: 90%;
 }
+
 @media(max-width:500px){
   width: 80%;
   height: 13rem;

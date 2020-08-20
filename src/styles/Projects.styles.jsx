@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
   export const BigDiv = styled.div`
   margin: 8.5rem 0rem;
+  padding-top: 2rem;
   `
   export const ProjectDiv = styled.div`
   display: flex;
@@ -13,9 +14,8 @@ import styled from 'styled-components';
 
   export const Card = styled.div`
   display: flex;
-  padding: 1.5rem;
-  margin: 1rem;
-  border: black solid 1px;
+  padding: 1.5rem 0rem;
+  margin: 1rem 0rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   @media(max-width:800px){
@@ -49,9 +49,10 @@ import styled from 'styled-components';
   padding: 1rem;
   `
 
-  export const Title = styled.h1`
+  export const Title = styled.p`
+  font-size: 1.4rem;
   @media(max-width:500px){
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 `
 

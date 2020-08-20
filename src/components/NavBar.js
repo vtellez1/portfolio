@@ -1,6 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
 
-import { Link as ReactLink} from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 import { BigDiv, NavDiv, Title, Icon, RightNav, LeftNav } from '../styles/NavBar.styles';
@@ -12,24 +11,24 @@ function NavBar() {
           
     <NavDiv>
         <LeftNav>
-        <Icon><i class="fas fa-code fa-2x"></i></Icon>
+        <Icon></Icon>
         <Link
             activeClass='active'
             to='aboutme' 
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}><ReactLink style={{color: "black", textDecoration: 'none'}} to="/"><Title>Vanessa Tellez</Title></ReactLink></Link> 
+            duration={500} style={{color: "black", textDecoration: 'none'}}><Title>VANESSA TELLEZ</Title></Link> 
         </LeftNav>
-        <RightNav>
-
+        
+        <RightNav>        
           <Link
             activeClass='active'
             to='projects' 
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}><ReactLink style={{color: "black", textDecoration: 'none'}} to="/"> Projects</ReactLink></Link>  
+            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-file-code"> Projects</i></Link>  
             
             <Link
             activeClass='active'
@@ -37,7 +36,7 @@ function NavBar() {
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}> <ReactLink style={{color: "black", textDecoration: 'none'}} to="/">Skills</ReactLink></Link>
+            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-sun">  Skills</i></Link>
 
             <Link
             activeClass='active'
@@ -45,9 +44,16 @@ function NavBar() {
             spy={true}
             smooth= {true}
             offset={-70}
-            duration={500}> <ReactLink style={{color: "black", textDecoration: 'none'}} to="/">Contact Me</ReactLink></Link>
+            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-envelope"> Contact Me</i></Link>
 
-            <ReactLink style={{color: "black", textDecoration: 'none'}} to="/resume"> Resume </ReactLink> 
+            <Link
+            activeClass='active'
+            to='resume' 
+            spy={true}
+            smooth= {true}
+            offset={-70}
+            duration={500} style={{color: "#484848", textDecoration: 'none'}}>|  <i class="far fa-file"> Resume</i>  </Link> 
+
         </RightNav>
 
     </NavDiv>

@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 export const BigDiv = styled.div`
-margin: 7rem 0rem;
-padding: 2rem 0rem;
+margin-top: 6rem;
+padding: 1.7rem 0rem;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `
 
 export const AboutDiv = styled.div`
 display: flex;
 justify-content: space-evenly;
-margin: 4rem 0rem;
+margin: 1.5rem 0rem;
 
 @media(max-width:800px){
   flex-direction: column;
@@ -21,44 +22,42 @@ margin: 4rem 0rem;
 `
 
 export const AboutText = styled.div`
-width: 55%;
+width: 95%;
+text-align: left;
 @media(max-width:800px){
   width: 95%;
   font-size: .8rem;
 }
 `
 
-export const Title = styled.h2`
+export const AboutTop = styled.span`
+width: 95%;
+text-align: center;
+@media(max-width:800px){
+  width: 95%;
+  font-size: .8rem;
+}
+`
+
+export const Title = styled.h3`
 @media(max-width:500px){
   font-size: 1.3rem;
 }
 `
 
-export const ProfilePic = styled.img`
-height: 16rem;
+export const CardImg = styled.img`
+width: 100%;
+height: 21rem;
+padding: 1rem 0rem;
 @media(max-width:800px){
-  height: 10rem;
-  padding-top: 1rem;
+  width: 90%;
 }
-
 @media(max-width:500px){
-  height: 8rem;
+  width: 80%;
+  height: 13rem;
 }
 `
-export const SocialsDiv = styled.div`
-display: flex;
-justify-content: center;
-margin: 3rem 0rem;
 
-@media(max-width:500px){
-  flex-direction: column;
-  align-items: center;
-  margin: 1rem;
-}
-`
-export const SocialIcon = styled.div`
-width: 15%
-`
 export const Button = styled.button`
 background-color: black;
 color: white;

@@ -10,7 +10,7 @@ import { BigDiv, Title, ProjectDiv, Card, CardImg, CardBody, CardTitle, CardText
 function Projects() {
   return (
     <BigDiv name='projects'>
-      <Title>My Projects:</Title>
+      <Title>MY PROJECTS</Title>
       <ProjectDiv>
 
       <Card>
@@ -58,7 +58,7 @@ function Projects() {
         </CardBody>
       </Card>
 
-      <Card>
+      {/* <Card>
         <CardImg top width="100%" src={chefporfolioapp} alt="Chef Portfolio app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}/>
         <CardBody>
           <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>Chef Portfolio</CardTitle>
@@ -77,7 +77,7 @@ function Projects() {
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/ft-bw-chef-portfolio/front-end'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>
-      </Card>
+      </Card> */}
 
       <Card>
         <CardImg top width="100%" src={topnineapp} alt="top nine app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}} />

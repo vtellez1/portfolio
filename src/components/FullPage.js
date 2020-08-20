@@ -1,17 +1,19 @@
 import React from 'react';
 
-import AboutMe from './AboutMe';
-import Skills from './Skills';
-import Projects from './Projects';
 import Contact from './Contact';
+import RightPage from './RightPage';
+import LeftPage from './LeftPage';
 
+import { MainDiv } from '../styles/FullPage.styles'
 
 function FullPage() {
   return (
-    <div className="App">
-      <AboutMe/>
-      <Projects/>
-      <Skills/>     
+    <div className="FullPage">
+      <MainDiv>
+        <LeftPage/> 
+        <RightPage/>      
+      </MainDiv>
+
       <Contact/>
     </div>
   );

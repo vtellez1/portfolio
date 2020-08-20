@@ -5,11 +5,11 @@ import { BigDiv, ResumeWhole, Header, Title, SubTitle, Main, Left, Projects, Sec
 
 function Resume() {
   return (
-    <BigDiv>
-
+    <BigDiv name='resume'>
+      <Title>MY RESUME</Title>
       <a download href={ResumePdf}>Download PDF Resume</a>
 
-      <ResumeWhole>
+      {/* <ResumeWhole>
         <Header>
           <Title>Vanessa Tellez</Title>
           <SubTitle>Full Stack Developer</SubTitle>
@@ -161,7 +161,7 @@ function Resume() {
             </div>
           </Right>
         </Main>
-      </ResumeWhole>
+      </ResumeWhole> */}
 
     </BigDiv>
   

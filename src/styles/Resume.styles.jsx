@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const BigDiv = styled.div`
 margin: 7rem 0rem;
 padding: 2rem 0rem;
+border-top: 1px solid #484848;
 `
 export const ResumeWhole = styled.div`
 padding-top: 2rem;
@@ -26,9 +27,11 @@ justify-content: center;
 }
 `
 
-export const Title = styled.h1`
+export const Title = styled.p`
+font-size: 1.4rem;
+
 @media(max-width:500px){
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 `
 

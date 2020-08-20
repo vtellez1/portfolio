@@ -7,9 +7,11 @@ margin: 1rem 0rem;
 
 export const SkillsBox = styled.div`
 margin: 2rem 0rem;
+text-align: left;
 
 @media(max-width:800px){
   margin: 0rem;
+  text-align: center;
 }
 `
 

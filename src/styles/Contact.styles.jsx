@@ -29,6 +29,7 @@ color: #484848;
 
 export const SocialsDiv = styled.div`
 
+width: 6rem;
 @media(max-width:500px){
   margin: 1.5rem 0rem;
   display: flex;
@@ -37,7 +38,8 @@ export const SocialsDiv = styled.div`
 `
 
 export const SocialIcon = styled.div`
-width: 15%
+
+
 `
 
 export const CopyRight = styled.p`

@@ -2,7 +2,7 @@ import React from 'react';
 
 import kanshaapp from '../images/KanshaImg2.jpeg';
 import simmerapp from '../images/simmer-app.jpeg';
-import chefporfolioapp from '../images/chefportfolio-app.jpeg';
+
 import topnineapp from '../images/topnineapp.jpg';
 
 import { BigDiv, Title, ProjectDiv, Card, CardImg, CardBody, CardTitle, CardText, CardSubTitle, ButtonDiv, Button, } from '../styles/Projects.styles';

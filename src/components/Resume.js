@@ -1,7 +1,7 @@
 import React from 'react';
 import ResumePdf from '../pdf/Resume.pdf';
 
-import { BigDiv, Button, ResumeLink, ResumeWhole, Header, Title, SubTitle, Main, Left, Projects, SectionTitle, TitleDates, ProjectBody, Employment, Right, Contact} from '../styles/Resume.styles';
+import { BigDiv, Button, ResumeLink,  Title } from '../styles/Resume.styles';
 
 function Resume() {
   return (

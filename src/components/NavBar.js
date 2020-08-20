@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 
 import { BigDiv, NavDiv, Title, Icon, RightNav, LeftNav } from '../styles/NavBar.styles';
 

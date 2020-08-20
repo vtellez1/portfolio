@@ -6,7 +6,7 @@ top: 0;
 width: 100%;
 padding: .8rem 1rem;
 background-color: white;
-border-bottom: 1px solid black;
+
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 `
 

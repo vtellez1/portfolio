@@ -3,63 +3,8 @@ import React, {useState} from 'react';
 import { Link as ReactLink} from 'react-router-dom';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
-import styled from 'styled-components';
+import { BigDiv, NavDiv, Title, Icon, RightNav, LeftNav } from '../styles/NavBar.styles';
 
-const BigDiv = styled.div`
-position: fixed;
-top: 0;
-width: 85%;
-background-color: white;
-`
-
-const NavDiv = styled.div`
-display:flex;
-justify-content: space-between;
-margin: 1.3rem 0rem;
-width: 85%;
-
-@media(max-width:500px){
-  flex-direction: column;
-  align-items: center;
-  width: 95%;
-}
-`
-
-const Title = styled.h4`
-@media(max-width:500px){
-  font-size: 1.2rem;
-  padding-left: .7rem;
-}
-`
-
-const Icon = styled.span`
-color: #99ccff;
-
-@media(max-width:500px){
-  font-size: .8rem;
-}
-`
-const LeftNav = styled.div`
-display:flex;
-justify-content: space-between;
-width: 25%;
-
-@media(max-width:500px){
-  justify-content: center;
-  width: 95%;
-}
-`
-
-const RightNav = styled.div`
-display: flex;
-justify-content: space-between;
-width: 40%;
-
-@media(max-width:500px){
-  flex-direction: column;
-  width: 95%;
-}
-`
 function NavBar() {
 
   return (

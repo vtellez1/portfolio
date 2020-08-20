@@ -1,32 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const BigDiv = styled.div`
-margin: 4rem 0rem;
-
-@media(max-width:500px){
-  margin-bottom: 5rem;
-}
-`
-const Title = styled.h1`
-@media(max-width:500px){
-  font-size: 2rem;
-}
-`
-const SocialsDiv = styled.div`
-display: flex;
-justify-content: center;
-margin: 3rem 0rem;
-
-@media(max-width:500px){
-  margin: 1.5rem 0rem;
-  flex-direction: column;
-  align-items: center;
-}
-`
-const SocialIcon = styled.div`
-width: 15%
-`
+import { BigDiv, Title, SocialsDiv, SocialIcon } from '../styles/Contact.styles';
 
 function Contact() {
   return (

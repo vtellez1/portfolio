@@ -1,13 +1,13 @@
 import React from 'react';
 import ResumePdf from '../pdf/Resume.pdf';
 
-import { BigDiv, ResumeWhole, Header, Title, SubTitle, Main, Left, Projects, SectionTitle, TitleDates, ProjectBody, Employment, Right, Contact} from '../styles/Resume.styles';
+import { BigDiv, Button, ResumeLink, ResumeWhole, Header, Title, SubTitle, Main, Left, Projects, SectionTitle, TitleDates, ProjectBody, Employment, Right, Contact} from '../styles/Resume.styles';
 
 function Resume() {
   return (
     <BigDiv name='resume'>
       <Title>MY RESUME</Title>
-      <a download href={ResumePdf}>Download PDF Resume</a>
+      <Button><ResumeLink download href={ResumePdf} >Download PDF Resume</ResumeLink></Button>
 
       {/* <ResumeWhole>
         <Header>

@@ -5,6 +5,38 @@ margin: 7rem 0rem;
 padding: 2rem 0rem;
 border-top: 1px solid #484848;
 `
+
+export const Button = styled.button`
+background-color: black;
+color: white;
+padding: .6rem 1.2rem;
+font-size: 1.1rem;
+border-radius: .4rem;
+
+
+&:hover{
+background-color:white; 
+color: black;
+
+}
+
+@media(max-width:500px){
+  font-size: .9rem;
+  padding: .4rem 1rem;
+
+}
+`
+
+export const ResumeLink = styled.a`
+color: white;
+
+&:hover{
+  background-color:white; 
+  color: black;
+  text-decoration: none;
+  }
+`
+
 export const ResumeWhole = styled.div`
 padding-top: 2rem;
 display: flex;

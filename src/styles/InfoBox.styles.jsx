@@ -32,6 +32,7 @@ display: flex;
 justify-content: center;
 margin: 2rem 0rem;
 
+
 @media(max-width:500px){
   flex-direction: column;
   align-items: center;
@@ -39,5 +40,7 @@ margin: 2rem 0rem;
 }
 `
 export const SocialIcon = styled.div`
-width: 20%
+width: 20%;
+margin: 0rem 1rem;
+
 `

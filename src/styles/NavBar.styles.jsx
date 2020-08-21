@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 
+
 export const BigDiv = styled.div`
 position: fixed;
 top: 0;
@@ -38,22 +39,35 @@ justify-content: space-between;
 align-items: center;
 width: 45%;
 
-@media(max-width:800px){
 
+@media(max-width:800px){
   width: 75%;
 }
 
 @media(max-width:500px){
   flex-direction: column;
-  width: 95%;
+  width: 40%;
+  display: none;
+}
+`
+
+export const HamburgerMenu = styled.h4`
+display: none;
+
+@media(max-width:500px){
+  display: block;
 }
 `
 
 export const Title = styled.h4`
 font-size: 1.4rem;
 
-@media(max-width:500px){
+@media(max-width:800px){
   font-size: 1.2rem;
+}
+
+@media(max-width:500px){
+  font-size: 1.1rem;
   padding-left: .7rem;
 }
 `

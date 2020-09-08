@@ -66,7 +66,7 @@ function Projects() {
           <CardText>
             <CardSubTitle>Buit using: JavaScript | React | Redux | Styled Components </CardSubTitle>
             <p>Role: Front End Developer</p>
-            <p> Search OMDB for movies on webpage and save 5 favourite films. Select 5 nominees and be notified when finished. </p>
+            <p> Search OMDb for movies on webpage and save 5 favourite films. Select 5 nominees and be notified when finished. </p>
             <ul>
               <li>Implemented request to OMDb API for application movie search data.  </li>
               <li>Developed state management for full application with Redux to add/remove movie from nomination list.</li>

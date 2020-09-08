@@ -38,7 +38,7 @@ import styled from 'styled-components';
   }
   `
   export const CardImg = styled.img`
-  width: 40%;
+  width: 45%;
   height: 17rem;
   padding: 1rem;
   @media(max-width:800px){

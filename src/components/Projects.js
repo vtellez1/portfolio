@@ -2,6 +2,7 @@ import React from 'react';
 
 import kanshaapp from '../images/KanshaImg2.jpeg';
 import simmerapp from '../images/simmer-app.jpeg';
+import omdbapp from '../images/omdb-movie-app.jpeg';
 
 import topnineapp from '../images/topnineapp.jpg';
 
@@ -14,7 +15,7 @@ function Projects() {
       <ProjectDiv>
 
       <Card>
-        <CardImg top width="100%" src={kanshaapp} alt="Kansha app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}/>
+        <CardImg src={kanshaapp} alt="Kansha app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}/>
         <CardBody>
           <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}>Kansha Rewards</CardTitle>
           <CardText>
@@ -37,7 +38,7 @@ function Projects() {
       </Card>
 
       <Card>
-        <CardImg top width="100%" src={simmerapp} alt="Simmer app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}} />
+        <CardImg src={simmerapp} alt="Simmer app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}} />
         <CardBody>
           <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>Simmr</CardTitle>
           <CardText>
@@ -58,51 +59,26 @@ function Projects() {
         </CardBody>
       </Card>
 
-      {/* <Card>
-        <CardImg top width="100%" src={chefporfolioapp} alt="Chef Portfolio app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}/>
+      <Card>
+        <CardImg src={omdbapp} alt="OMDB app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://omdb-movies-tellez.netlify.app/'}}/>
         <CardBody>
-          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>Chef Portfolio</CardTitle>
+          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://omdb-movies-tellez.netlify.app/'}}>OMDb Movies</CardTitle>
           <CardText>
-            <CardSubTitle>Buit using: JavaScript | React | Redux | SASS | NodeJS | Express</CardSubTitle>
+            <CardSubTitle>Buit using: JavaScript | React | Redux | Styled Components </CardSubTitle>
             <p>Role: Front End Developer</p>
-            <p>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </p>
+            <p> Search OMDB for movies on webpage and save 5 favourite films. Select 5 nominees and be notified when finished. </p>
             <ul>
-              <li>Built project on a remote team of 4 front-end developers, 1 backend developer, and 2 UI developers in 4 days.</li>
-              <li>Developed state management for application and handled HTTP requests for all CRUD operations.</li>
-              <li> Implemented client-side authentication in collaboration with a backend developer.</li>
+              <li>Implemented request to OMDb API for application movie search data.  </li>
+              <li>Developed state management for full application with Redux to add/remove movie from nomination list.</li>
+              <li> Styled and designed full application with styled components. </li>
             </ul>
         </CardText>
         <ButtonDiv> 
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://objective-kalam-f1d625.netlify.app/'}}>View Project</Button>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/ft-bw-chef-portfolio/front-end'}}>GitHub Repo <i class="fab fa-github"></i></Button>
-        </ButtonDiv>
-        </CardBody>
-      </Card> */}
-
-      <Card>
-        <CardImg top width="100%" src={topnineapp} alt="top nine app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}} />
-        <CardBody>
-          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>My Top Nine</CardTitle>
-          <CardText>
-          <CardSubTitle>Built using: JavaScript | React | Styled Components | NodeJS | Express </CardSubTitle>
-          <p>Role: React I developer. </p>
-          <p>Top Nine allows you to choose your top 9 favorite things, edit/delete them, and view your friend's Top Nine.</p>
-          <ul>
-            <li>Built project on a remote team of 3 front-end developers, 1 backend developer, and 1 UI developers in 4 days.</li>
-            <li>Constructed user sign up and login forms utilizing formik in order to provide great user experience</li>
-            <li>Styled application using styled components to meet plan design specifications.</li>
-          </ul>
-          
-          </CardText>
-
-        <ButtonDiv>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://mytopninefavs.netlify.com/'}}>View Project</Button>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/top-nine-pro'}}>GitHub Repo <i class="fab fa-github"></i></Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://omdb-movies-tellez.netlify.app/'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/vtellez1/omdbmovies'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>
       </Card>
-
-
 
     </ProjectDiv>
     </BigDiv>

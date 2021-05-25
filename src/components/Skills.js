@@ -23,7 +23,6 @@ function Skills() {
       <SkillText> Express <span style={{color: "lightblue"}}><i class="fas fa-cogs"></i></span></SkillText>      
       <SkillText> SQL <span style={{color: "dimgray"}}><i class="fas fa-database"></i></span></SkillText>
       <SkillText> PostgresSQL <img src='https://miro.medium.com/max/3840/1*wsG43wOOFexWg_xa0CEhuQ.jpeg' alt="postgres logo" style={{height:27}}></img></SkillText>
-      <SkillText> Azure <img src='https://www.versio.io/img/supported-technology/microsoft-azure.svg' alt="azure logo" style={{height:22}}></img></SkillText>
 
       <SkillText> Sass <span style={{color: "pink"}}><i class="fab fa-sass"></i></span></SkillText>
       <SkillText> Styled Components <img src='https://raw.githubusercontent.com/styled-components/brand/master/styled-components.png' alt="styled components logo" style={{height:32}}></img></SkillText>

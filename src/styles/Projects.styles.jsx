@@ -38,8 +38,8 @@ import styled from 'styled-components';
   }
   `
   export const CardImg = styled.img`
-  width: 45%;
-  height: 17rem;
+  width: 50%;
+  height: auto;
   padding: 1rem;
   @media(max-width:800px){
     width: 50%;

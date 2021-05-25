@@ -50,7 +50,7 @@ export const Title = styled.h3`
 
 export const CardImg = styled.img`
 width: 100%;
-height: 21rem;
+height: auto;
 padding: 1rem 0rem;
 
 @media(max-width:800px){

@@ -14,7 +14,8 @@ function AboutMe(){
         <AboutTop>
          <p>Hi, my name is <Title>Vanessa Tellez.</Title> I am a full-stack web developer based in <p><span style={{color: "crimson"}}><i class="fas fa-map-pin"></i></span> Charlotte, NC</p></p>
         </AboutTop> 
-         <p>I was one of those kids that loved school because I love learning something new everyday. It isn’t practical to stay in school forever so I found the next best thing and became a developer! I'm passionate about continuous learning and enjoy problem solving. I'm excited to apply my skills to impactful projects and learn as much as possible along the way.</p>
+         <p>I love learning something new everyday. I couldn't stay in school forever so I found the next best thing and became a developer! I'm passionate about continuous learning and love problem solving. 
+           I enjoy applying my skills to impactful projects and growing as much as possible along the way.</p>
         
         <CardImg src={carolina_mountains}></CardImg>   
 

@@ -29,30 +29,8 @@ function Projects() {
 
 
         <ButtonDiv>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://kansharewards.com/'}}>View Project</Button>
+          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://www.youtube.com/watch?v=LOjRpE6OURw'}}>View Project</Button>
           <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/Lambda-School-Labs/kansha-fe'}}>GitHub Repo <i class="fab fa-github"></i></Button>
-        </ButtonDiv>
-        </CardBody>
-      </Card>
-
-      <Card>
-        <CardImg src={simmerapp} alt="Simmer app screenshot" onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}} />
-        <CardBody>
-          <CardTitle onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>Simmr</CardTitle>
-          <CardText>
-            <CardSubTitle>Buit using: JavaScript | React | Redux | Material UI | NodeJS | Express</CardSubTitle>
-            <p>Role: Back End Developer</p>
-            <p>A professional platform for chefs to display their best recipes for the world to view with photos and ingredient lists. </p>
-            <ul>
-              <li>Developed project on a remote team of 2 front-end developers, 2 backend developer, and 1 UI developer in 4 days.</li>
-              <li>Built Web API in coordination with front-end team and backend developer partner to meet client requirements.</li>
-              <li>Delivered an API using the REST architectural pattern, provided data persistence, incorporated authentication, and included testing.</li>
-            </ul>
-        </CardText>
-
-        <ButtonDiv> 
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://deploy-inky.now.sh/home'}}>View Project</Button>
-          <Button onClick={(e)=>{e.preventDefault(); window.location.href='https://github.com/chefPassport/backend'}}>GitHub Repo <i class="fab fa-github"></i></Button>
         </ButtonDiv>
         </CardBody>
       </Card>

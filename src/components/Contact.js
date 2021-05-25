@@ -22,7 +22,7 @@ function Contact() {
                 <a target="_blank" rel="noopener noreferrer" href='https://twitter.com/vanessa_tellezz'><i style={{color: "#1DA1F2"}} class="fab fa-twitter-square"> Twitter</i></a>
             </SocialIcon> 
         </SocialsDiv>
-        <CopyRight>  Tellez - 2020</CopyRight>
+        <CopyRight>  Tellez - 2021 </CopyRight>
 
     </BigDiv>
   );
